@@ -1,0 +1,21 @@
+html {
+  font-size: 82.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+body {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 2.5 rem;
+  font-family: "Lobster", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
