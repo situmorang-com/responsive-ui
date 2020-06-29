@@ -1,0 +1,47 @@
+.home {
+    background:radial-gradient(#525252, #131313);
+}
+
+.nav-container {
+    background: rgb(7,7,7)
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    min-height:10vh;
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
+    #logo {
+        display: flex;
+        flex: 3;
+        position:relative;
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 6rem;
+            height: 6rem;
+            background: #f54538;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            transform: translate (-10%, -20%);
+            -webkit-transform: translate (-10%, -20%);
+            -moz-transform: translate (-10%, -20%);
+            -ms-transform: translate (-10%, -20%);
+            -o-transform: translate (-10%, -20%);
+            mix-blend-mode: screen;
+}
+    }
+}
