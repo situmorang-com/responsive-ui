@@ -1,3 +1,18 @@
+.home {
+  background: radial-gradient(#525252, #131313);
+}
+
+.nav-container {
+  background: #070707;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  min-height: 10vh;
+  padding: 3rem 0rem;
+}
+
 html {
   font-size: 82.5%;
 }
@@ -40,5 +55,10 @@ p {
 
 li {
   font-size: 2 rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
